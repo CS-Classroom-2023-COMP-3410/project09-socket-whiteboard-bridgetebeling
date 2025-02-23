@@ -1,0 +1,21 @@
+{
+    "name": "whiteboard",
+    "version": "1.0.0",
+    "description": "Realtime collaborative whiteboard using Socket.IO",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js",
+      "server": "node server.js",
+      "client": "vite",
+      "dev": "concurrently \"npm run server\" \"npm run client\""
+    },
+    "dependencies": {
+      "express": "^4.18.2",
+      "socket.io": "^4.5.4"
+    },
+    "devDependencies": {
+      "vite": "^4.3.9",
+      "concurrently": "^7.0.0"
+    }
+  }
+  
